@@ -1,4 +1,4 @@
-# Storage
+# OpenG2P: Storage
 The Storage Backend module integrates with various storage solutions, allowing Odoo to manage and store files effectively across different backends. The Storage Backend S3 integration facilitates storing files in Amazon S3, while the Storage File module ensures the smooth handling of file data, both locally and remotely. Together, these modules provide a robust and scalable solution for file storage, management, and access, supporting a wide range of storage strategies from local servers to cloud solutions like Amazon S3.
 
 ## Feature and functionality
@@ -11,3 +11,6 @@ The Storage Backend module integrates with various storage solutions, allowing O
 | **File Metadata Management** | The module ensures that metadata, including file size, MIME type, checksum, and storage location, is managed and retained for each file. Whether files are stored locally or on Amazon S3, the metadata is updated and consistent, allowing users to manage their files effectively. |
 | **KeyManager Integration** | KeyManager handles the encryption and decryption of files, providing a centralized approach to manage encryption keys securely. Files stored on S3 are encrypted using the KeyManager service, guaranteeing that only authorized users or systems can access and decrypt the files. |
 | **Seamless File Handling** | The integration ensures that files are accessed seamlessly regardless of where they are stored. Whether a file is located in an S3 bucket or on the local server, the access URLs are consistent and can be retrieved without complex configurations. |
+
+## Source Code
+[https://github.com/OpenG2P/storage/tree/17.0](https://github.com/OpenG2P/storage/tree/17.0)
