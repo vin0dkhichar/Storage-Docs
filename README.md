@@ -24,5 +24,10 @@ The Storage module in OpenG2P provides a comprehensive solution for managing and
 ## Design notes
    - The `StorageBackend`, `StorageFile` models extend core Odoo functionality, adding custom features for file storage and retrieval. The S3 backend inherits from the main storage backend class and provides the specific logic for interacting with Amazon S3. The `storage_file` module simplifies file interactions across both local and remote storage.
 
+## Dependencies
+   - The module relies on the following external Python libraries:
+      - `boto3` (version <=1.15.18)
+      - `python_slugify`
+
 ## Source Code
 [https://github.com/OpenG2P/storage/tree/17.0](https://github.com/OpenG2P/storage/tree/17.0)
